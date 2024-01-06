@@ -1,0 +1,12 @@
+.image-after:after {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: #0000001a;
+    content: "";
+    left: 50%;
+    z-index: -1;
+    bottom: 0;
+    margin-left: -250px;
+    border-radius: 50%;
+}
